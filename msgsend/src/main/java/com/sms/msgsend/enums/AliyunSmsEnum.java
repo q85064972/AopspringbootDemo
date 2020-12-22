@@ -25,15 +25,15 @@ public enum AliyunSmsEnum {
     /**
      * 签名模板
      */
-    SIGNNAME("SignName", "中科微服务"),
+    SIGNNAME("SignName", "*****"),
     /**
      * 配置Id
      */
-    ACCESSKEY_ID("AccessKeyId","LTAI8nl9F8dFTPnJ"),
+    ACCESSKEY_ID("AccessKeyId","*********"),
     /**
      * 配置密钥
      */
-    ACCESSKEY_SECRET("AccessKeySecret","HMS45ImiSOjASuQDwuKO40xU50HjIs")
+    ACCESSKEY_SECRET("AccessKeySecret","*********")
     ;
 
 
