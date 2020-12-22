@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sms.msgsend.mapper.impl.SmsSendLogsMapper">
+  <resultMap id="BaseResultMap" type="com.sms.msgsend.pojo.domain.SmsSendLogs">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="telphone" jdbcType="VARCHAR" property="telphone" />
+    <result column="sendTime" jdbcType="VARCHAR" property="sendtime" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="userid" jdbcType="VARCHAR" property="userid" />
+    <result column="sendmsg" jdbcType="VARCHAR" property="sendmsg" />
+    <result column="create_by" jdbcType="INTEGER" property="createBy" />
+    <result column="update_by" jdbcType="INTEGER" property="updateBy" />
+    <result column="create_date" jdbcType="VARCHAR" property="createDate" />
+    <result column="update_date" jdbcType="VARCHAR" property="updateDate" />
+    <result column="reqcontent" jdbcType="LONGVARCHAR" property="reqcontent" />
+    <result column="rescontent" jdbcType="LONGVARCHAR" property="rescontent" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sms.msgsend.mapper.impl.SmsAccessControlMapper">
+  <resultMap id="BaseResultMap" type="com.sms.msgsend.pojo.domain.SmsAccessControl">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="organization_code" jdbcType="VARCHAR" property="organizationCode" />
+    <result column="organization_name" jdbcType="VARCHAR" property="organizationName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="encryption_method" jdbcType="VARCHAR" property="encryptionMethod" />
+    <result column="create_by" jdbcType="INTEGER" property="createBy" />
+    <result column="update_by" jdbcType="INTEGER" property="updateBy" />
+    <result column="create_date" jdbcType="VARCHAR" property="createDate" />
+    <result column="update_date" jdbcType="VARCHAR" property="updateDate" />
+    <result column="send_method" jdbcType="LONGVARCHAR" property="sendMethod" />
+    <result column="ip" jdbcType="LONGVARCHAR" property="ip" />
+  </resultMap>
+</mapper>
